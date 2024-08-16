@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Portfolio website complete</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
+  />
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Marlon</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#educations" class="nav__link">Educations</a></li>
+                        <li class="nav__item"><a href="#license" class="nav__link">License & activities</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                        
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">함께 나아가는<br><span class="home__title-color">개발자 김나현</span> 입니다</h1>
+
+                    <h4 class="about__subtitle"><div class="font_gray">email</div>knh9801@naver.com</h4>
+                    <h4 class="about__subtitle"><div class="font_gray">phone</div>010.2450.0109</h4>
+                    <h4 class="about__subtitle"><div class="font_gray">address</div>서울특별시 강서구 화곡동</h4>
+                </div>
+
+                <div class="home__social">
+                    <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="" class="home__social-icon"><i class='bx bxl-behance' ></i></a>
+                    <a href="" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            <image class="home__blob-img" x="50" y="60" href="assets/img/introduce_port.png"/>
+                        </g>
+                    </svg>
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/port.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">3년 차 웹 개발자 김나현입니다.</h2>
+                        <p class="about__text"> 
+                            다양한 산업군에서 웹 애플리케이션 개발, 데이터베이스 마이그레이션, 시스템 리뉴얼 등 다양한 프로젝트를 통해 폭넓은 경험을 쌓았습니다.<br> 
+                            <b>Java, Spring Framework, Vue.js</b>를 비롯한 다양한 기술 스택을 활용하여 안정적이고 확장 가능한 시스템을 구축해왔으며, 
+                            <b>프론트엔드</b>와 <b>백엔드</b>를 아우르는 전반적인 개발 역량을 갖추고 있습니다.<br>
+                            프로젝트의 성공과 회사의 성장을 위해 항상 최적의 솔루션을 고민하며, 기술적 도전과 함께 팀과의 협력을 통해 더욱 성장해 나가고자 합니다.</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+<!--Low (기초 수준)
+Basic (기본 수준)
+Intermediate (중간 수준)
+High (높은 수준)
+Expert (전문가 수준)-->
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class="bx bxl-java skills__icon"></i>
+                                <span class="skills__name">Java</span>
+                            </div>
+                            <div class="skills__bar skills_65">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">65%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-vuejs skills__icon' ></i>
+                                <span class="skills__name">Vue.js</span>
+                            </div>
+                            <div class="skills__bar skills_60">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">60%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-spring-boot skills__icon' ></i>
+                                <span class="skills__name">Spring Framework</span>
+                            </div>
+                            <div class="skills__bar skills_65">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">65%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-data skills__icon'></i>
+                                <span class="skills__name">SQL</span>
+                            </div>
+                            <div class="skills__bar skills_75">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">75%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names"></i>
+                                <i class='bx bx-data skills__icon'></i>
+                                <span class="skills__name">JPA</span>
+                            </div>
+                            <div class="skills__bar skills_60">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">60%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names"></i>
+                                <i class='bx bxl-javascript skills__icon'></i>
+                                <span class="skills__name">JavaScript</span>
+                            </div>
+                            <div class="skills__bar skills_45">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">45%</span>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div>              
+                        <img src="assets/img/work3.jpg" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== EDUCATION =====-->
+            <section class="about section" id="educations">
+                <h2 class="section-title">Educations</h2>
+
+                <div class="bd-grid content_info bottom">
+                    <i class='bx bxs-graduation skills__icon'></i>
+                    <div>
+                        <h2 class="about__subtitle">성신여자대학교 돈암수정캠퍼스</h2>
+                        <h3 class="about__text">서양화과</h3> 
+                        <p style="color: gray;">2016-2020</p>
+                    </div>
+                </div>
+                <div class="bd-grid content_info bottom">
+                    <i class='bx bxs-graduation skills__icon'></i>
+                    <div>
+                        <h2 class="about__subtitle">대구 운암고등학교</h2>
+                        <h3 class="about__text">인문계열</h3> 
+                        <p style="color: gray;">2013-2016</p>
+                    </div>
+                </div>
+            </section>
+            
+            <!--===== License & activities =====-->
+            <section class="about section" id="license">
+                <h2 class="section-title">License & activities</h2>
+
+                <div class="bd-grid content_info bottom">
+                    <i class='bx bxs-bookmark-alt skills__icon'></i>
+                    <div>
+                        <h2 class="about__subtitle">정보처리기사</h2>
+                        <h3 class="about__text">한국산업인력공단</h3> 
+                        <p style="color: gray;">2021. 06</p>
+                    </div>
+                </div>
+                <div class="bd-grid content_info bottom">
+                    <i class='bx bxs-bookmark-alt skills__icon'></i>
+                    <div>
+                        <h2 class="about__subtitle">SQLD</h2>
+                        <h3 class="about__text">한국데이터산업진흥원</h3> 
+                        <p style="color: gray;">2024.06</p>
+                    </div>
+                </div>
+                <div class="bd-grid content_info bottom">
+                    <i class='bx bxs-bookmark-alt skills__icon'></i>
+                    <div>
+                        <h2 class="about__subtitle">컬러리스트기사</h2>
+                        <h3 class="about__text">한국산업인력공단</h3> 
+                        <p style="color: gray;">2020. 03</p>
+                    </div>
+                </div>
+                <div class="bd-grid content_info bottom">
+                    <i class='bx bxs-book-content skills__icon'></i>
+                    <div>
+                        <h2 class="about__subtitle">JAVA를 활용한 풀스택 개발자 양성</h2>
+                        <h3 class="about__text">코리아아이티아카데미</h3> 
+                        <p style="color: gray;">2020. 02 ~ 2020. 08</p>                        </p>
+                    </div>
+                </div>
+                <div class="bd-grid content_info bottom">
+                    <i class='bx bxs-book-content skills__icon'></i>
+                    <div>
+                        <h2 class="about__subtitle">프로젝트 기반의 Spring Cloud 개발자 양성</h2>
+                        <h3 class="about__text">한국소프트웨어기술진흥협회</h3> 
+                        <p style="color: gray;">2021. 08 ~ 2021. 12</p>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Works</h2>
+
+                <div class="bd-grid content_info bottom">
+                    <i class='bx bxs-briefcase skills__icon'></i>
+                    <div>
+                        <p class="work_blue work_bold">2022.07 -</p>
+                        <h2 class="about__subtitle">Web Developer</h2>
+                        <h3 class="about__text">오케스트로</h3>
+                        <div class="work_project_title work_bold">Skills</div>
+                        <p class="work_gray work_bold">Java, Spring Framework, Vue.js, JPA, PostgreSQL, MariaDB, Rest API, JavaScript, Git, Jenkins, RDBMS</p>
+                        <div class="work_project_title">CMP v2 Modernization</div>
+                        <ol class="work_gray list">
+                            <li>MariaDB에서 PostgreSQL로의 전환 : Native Query를 MariaDB 문법에서 PostgreSQL 문법으로 변환하고, 데이터 마이그레이션 과정에서 발생할 수 있는 잠재적인 성능 및 호환성 이슈를 해결</li>
+                            <li>설정 파일 변경 및 테스트 : yml, xml 등의 설정 파일을 PostgreSQL 환경에 맞게 수정하고, 전반적인 시스템 안정성을 위해 포괄적인 테스트를 진행</li>
+                        </ol>
+                        <div class="work_project_title">하나클라우드 CMP 개발</div>
+                        <ol class="work_gray list">
+                            <li>Editor Component 개발 : Toast UI Editor를 사용해 사용자 친화적인 에디터 컴포넌트를 개발, 다중 이미지 업로드 기능을 구현하여 사용자 경험을 향상</li>
+                            <li>Pagination Component 개발 : 대용량 데이터를 효율적으로 처리하기 위해 pagination 컴포넌트를 개발하고, 데이터 크기에 따라 페이지를 동적으로 관리</li>
+                            <li> 게시물 노출 제어 기능 구현 : 콘솔과 포털에서 게시물의 노출 여부를 제어하는 기능을 추가, 필요한 게시물만 선별적으로 노출시켜 관리 효율성 향상</li>
+                            <li>첨부파일 저장 방식 개선 : 첨부파일을 Base64로 인코딩하여 DB에 저장하는 방식으로 변경, 파일 업로드의 안정성과 속도 개선. 다중 이미지 업로드 기능 구현</li>
+                            <li>미리보기 및 CRUD 기능 : 사용자 편의를 위해 미리보기 기능을 구현하고, CRUD 기능을 통해 데이터의 관리와 유지보수를 용이하게 처리</li>
+                            <li>노출 순서 변경 및 특정 게시물 고정 기능 : 서비스 소개 페이지에 특정 게시물을 상단에 고정하고, 게시물의 노출 순서를 사용자가 변경할 수 있는 기능 구현</li>
+                            <li>파일 관리 기능 개선 : 파일 확장자 제한 기능 및 파일 업로드 시 발생하는 자동 증가 오류 수정, 파일 관리의 안정성 강화</li>
+                            <li>모듈 페더레이션 적용 및 웹 취약점 대응: 모듈 페더레이션을 적용하여 시스템 모듈화 및 확장성을 강화하고, 웹 취약점 점검 결과에 따른 보안 대응 조치 수행</li>
+                        </ol>
+                        <div class="work_project_title">사내 CMP GS 인증</div>
+                        <ol class="work_gray list">
+                            <li>GS 인증 대응 : 사내 CMP 시스템의 GS 인증을 위해 요구되는 결함을 식별하고 조치, 철저한 테스트를 통해 인증 요건을 충족</li>
+                        </ol>
+                        <div class="work_project_title">하나은행 CMP 개발</div>
+                        <ol class="work_gray list">
+                            <li>PaaS Zone 관리 기능 : 다양한 서비스와의 연계를 고려해 PaaS Zone의 등록, 수정 기능 개발</li>
+                            <li>프로젝트명 중복 확인 기능 개선 : 프로젝트 생성 및 수정 시, 프로젝트명 중복을 방지하기 위한 검증 로직을 개선, 본인 프로젝트 제외 로직 추가</li>
+                            <li>API 연결 및 통신 관리 : Rest API를 활용하여 백엔드와 통신, API WebClient로 데이터 송수신을 처리하고, 통신 결과에 따라 동적으로 메시지 박스 생성 기능 구현</li>
+                            <li>아이콘 파일 관리 : 아이콘 첨부파일을 Radio Type을 사용해 등록 및 수정할 수 있는 기능을 구현하고, 이미지 크기 및 형식을 제한하여 관리</li>
+                            <li>페이지 구성 유동성 강화: Paging Component를 사용하여 데이터 크기에 따라 상세 보기의 높이가 자동으로 조정되도록 구현, 사용자 인터페이스 개선</li>            
+                        </ol>
+                    </div>
+                </div>
+            
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Marlon</p>
+            <div class="footer__social">
+                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+            </div>
+            <p class="footer__copy">&#169; Bedimcode. All rigths reserved</p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
